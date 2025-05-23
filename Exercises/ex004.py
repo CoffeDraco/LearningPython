@@ -1,0 +1,7 @@
+a = input('Type anything: ')
+print('The primitive type of {}', format(a), 'is', type(a))
+print('Is it just space?', a.isspace())
+print('Is it a number?', a.isnumeric())
+print('Is it a string?', a.isalpha())
+print('Is it alphanumeric?', a.isalnum())
+print('Is it is uppercase? {} Or lowercase? {}'.format(a.isupper(), a.islower()))
