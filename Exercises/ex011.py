@@ -7,5 +7,5 @@ h = float(input('Type the height of the wall: '))
 area = w * h
 wall_paint = area / 2
 
-print('The area of you wall is {:.2f} m² '
+print('The area of your wall is {:.2f} m² '
       'and you will need {:.2f} L of wall paint to paint it.'.format(area, wall_paint))
