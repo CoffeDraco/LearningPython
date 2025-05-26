@@ -6,7 +6,7 @@ import pygame
 pygame.init()
 
 #Loading the music
-pygame.mixer.music.load('music_exe021.mp3')
+pygame.mixer.music.load('music_ex021.mp3')
 
 #Starting it
 pygame.mixer.music.play()
